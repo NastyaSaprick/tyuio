@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <!-- лого -->
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+        <!-- навигация -->
+        <nav class="menu-nav">
+          <a href="#stocks" class="nav__link close">Акции </a>
+          <input class="button-search" type="fio" name="name-registration" placeholder="Поиск">
+          <a href="booking.html" class="nav__link button-primary">Регистрация на рейс </a>
+          <a href="authorization.html" class="nav__link button-primary">Личный кабинет </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- поиск -->
+  <section class="search">
+    <div class="container">
+      <div class="search">
+        <h2>Поиск</h2>
+        <div class="search-box">
+          <div class="closed-promotion-form">
+            <form class="form">
+              <label class="form__label" for="name-registration-id">Пункт отправления </label>
+              <input class="form__input" type="fio" name="name-registration" placeholder="Адрес:">
+              <label class="form__label" for="email-registration-id">Пункт прибывания</label>
+              <input class="form__input" type="fio" name="email-registration" placeholder="Адрес:">
+              <label class="form__label" for="name-registration-id">Дата выдета туда</label>
+              <input class="form__input" type="fio" name="name-registration" placeholder="Дата:">
+              <label class="form__label" for="email-registration-id">Дата вылета обратно</label>
+              <input class="form__input" type="fio" name="email-registration" placeholder="Дата:">
+              <label class="form__label" for="email-registration-id">Количество пассажиров</label>
+              <input class="form__input" type="fio" name="email-registration" placeholder="Колличество:">
+              <div class="buttons">
+                <a href="search-result.html" class="button button-primary">Поиск </a>
+              </div>
+            </form>
+          </div>
+          <img src="img/plan-road-trip-tips-ideas.jpg" alt="imh">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- акции -->
+  <section class="section-stock" id="stocks">
+    <div class="container">
+      <div class="stock">
+        <h2>Акции </h2>
+        <!-- карточки -->
+        <div class="cards">
+          <!-- 1 -->
+          <div class="card">
+            <img src="img/stock/promotion1.jpg" alt="img">
+            <h3>Возврат и замена Ваших Билетов</h3>
+            <p>Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.
+              Как только все это закончится, мы продолжим исследовать этот мир так, как привыкли...</p>
+            <a href="#" class="button button-primary">Подробнее </a>
+          </div>
+
+          <!-- 2 -->
+          <div class="card">
+            <img src="img/stock/promotion2.jpg" alt="img">
+            <h3>Лучшие предложения</h3>
+            <p>Чтобы снова увидеть улицы, которые были свидетелями столь многого. Обнять своих любимых и оглянуться назад, чтобы увидеть
+              , через что вы прошли. И думать о новых мечтах, которые будут такими особенными!</p>
+            <a href="#" class="button button-primary">Подробнее </a>
+          </div>
+
+          <!-- 3 -->
+          <div class="card">
+            <img src="img/stock/promotion3.jpg" alt="img">
+            <h3>Видимся чаще</h3>
+            <p>С начала января мы расширяем географию полетов по России, чтобы вы могли
+              чаще видеться со своими близкими. Выберите нашу компанию, чтобы лететь туда, где вас всегда ждут...</p>
+            <a href="#" class="button button-primary">Подробнее </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- закрытые акции -->
+  <section class="section-closed-promotion">
+    <div class="container">
+      <div class="closed-promotion">
+        <!-- форма -->
+        <h2>Закрытые акции</h2>
+        <div class="closed-promotion-box">
+          <img src="img/im-196106.jpeg" alt="img">
+          <div class="closed-promotion-form">
+            <form class="form">
+              <label class="form__label" for="name-registration-id">Введите ФИО</label>
+              <input class="form__input" type="fio" name="name-registration" placeholder="ФИО:">
+              <label class="form__label" for="email-registration-id">Введите Email</label>
+              <input class="form__input" type="fio" name="email-registration" placeholder="Email:">
+              <div class="checkbox row">
+                <input type="checkbox" name="checkbox-registration" id="checkbox-registration-id">
+                <label class="form__input__checkbox__label" for="checkbox-registration-id">Соглашения на обработку <br> персональной информации</label>
+              </div>
+              <div class="buttons">
+                <a href="#" class="button button-primary">Подписаться</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <!-- logo -->
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+        <nav class="footer-nav">
+          <a href="index.html" class="nav__link close">Главная</a>
+          <a href="authorization.html" class="nav__link">Вход</a>
+          <a href="registration.html" class="nav__link close">Регистрация</a>
+          <a href="#" class="nav__link close">Контакты</a>
+          <a href="#" class="nav__link close">Новости</a>
+          <a href="#" class="nav__link">Возврат</a>
+          <a href="#" class="nav__link ">Обратная Связь</a>
+
+
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+        <!-- навигация -->
+        <nav class="menu-nav">
+          <a href="index.html" class="nav__link">Акции </a>
+          <a href="authorization.html" class="nav__link button-primary">Личный кабинет </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+ 
+  <!-- авторизация -->
+  <div class="container">
+    <div class="authorization">
+      <h2>Авторизация</h2>
+      <form class="form">
+        <label class="form__label" for="name-authorization-id">Введите Телефон</label>
+        <input class="form__input" type="fio" name="tel-authorization" placeholder="Номер:">
+        <label class="form__label" for="login-authorization-id">Введите Пароль</label>
+        <input class="form__input"  name="password-authorization" placeholder="Пароль">
+        <!-- <div class="checkbox row">
+          <input type="checkbox" name="checkbox-authorization" id="checkbox-authorization-id">
+          <label class="form__input__checkbox__label" for="checkbox-authorization-id">Соглашения на обработку <br> персональной информации</label>
+        </div> -->
+        <div class="buttons">
+          <a href="personal-account.html" class="button button-primary">Вход</a>
+          <a href="registration.html" class="button button-primary">Регистрация</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+
+</html>
